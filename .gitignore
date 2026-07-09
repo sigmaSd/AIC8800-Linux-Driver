@@ -4,5 +4,17 @@
 build/
 drivers/aic8800/build/
 
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.d
+*.order
+modules.order
+Module.symvers
+Module.markers
+
 .worktrees/
 worktrees/
